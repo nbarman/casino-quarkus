@@ -33,7 +33,7 @@ public class CasinoApp {
     @Path("game/{id}")
     @GET
     public QuarkusGame getGame(@PathParam("id") String gameId) {
-        return null; //TODO
+        return gameService.getGame(gameId);
     }
     
 }

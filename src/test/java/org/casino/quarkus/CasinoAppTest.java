@@ -22,14 +22,14 @@ public class CasinoAppTest {
              .body(is("Hello from Pokerstars"));
     }
     
-   /* @Test
+    @Test
     public void testGetGames() {
         given()
                .header(HttpHeaders.ACCEPT,MediaType.APPLICATION_JSON)
-               .when().get("casino/games")
+               .when().get("casino/game/1")
                .then()
                .statusCode(200)
                .body("gameName", is("BlackJack".trim()));          
     }
-*/
+
 }
