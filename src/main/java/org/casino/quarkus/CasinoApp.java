@@ -18,10 +18,10 @@ public class CasinoApp {
     @Inject
     private QuarkusGameService gameService;
 
-    @Path("/hello man")
+    @Path("/hello")
     @GET
     public String hello() {
-        return "Hello from Pokerstars";
+        return "Hello from Pokerstars boss";
     }
     
     @Path("games")
