@@ -21,7 +21,7 @@ public class CasinoApp {
     @Path("/hello")
     @GET
     public String hello() {
-        return "Hello from Pokerstars boss";
+        return "Hello from Pokerstars";
     }
     
     @Path("games")

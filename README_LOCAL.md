@@ -27,4 +27,9 @@ gu install native-image
 
 =====docker=============
 
+
 mvnw quarkus:add-extension -Dextensions="container-image-docker"
+
+mvnw package -Dquarkus.container-image.build=true -Dquarkus.package.type=jar -Dquarkus.container-image.tag=jvm
+
+docker run -i --rm -p 8080:8080 barmanam/casino-quarkus
