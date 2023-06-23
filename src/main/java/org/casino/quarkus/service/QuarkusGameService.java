@@ -2,7 +2,6 @@ package org.casino.quarkus.service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import org.casino.quarkus.model.QuarkusGame;
 
@@ -28,8 +27,6 @@ private QuarkusGame qGame;
  }
  
  public QuarkusGame getGame(String id) {
-   //  int gameId = Integer.parseInt(id);
-    // return Optional.ofNullable(qGame).orElse(new QuarkusGame(30, "Temple Run", 4, "race"));
      return qGame;
  }
 }
